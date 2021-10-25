@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=KoHo:wght@300;400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apeiron Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">PANEVROPSKI UNIVERZITET 
+          APEIRON</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> 
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Naslovna</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">Univerzitet</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+              >Fakultet</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="#sign-up" class="button" id="signup">Pridruži nam se</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Naslovna -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <img class="fakultet_slika" src="FAKULTET - SLIKA.jpg" alt="Obrazovanje">
+        <h1 class="hero__heading">Panevropski  Univerzitet<span> APEIRON</span></h1>
+        <p class="hero__description">Panevropski univerzitet "APEIRON" je obrazovno-naučna ustanova koja, u okviru svoje matične djelatnosti visokog obrazovanja, samostalno i/ili u saradnji sa inostranim partnerima obavlja osnovne akademske studije prvog ciklusa, specijalističke i master studije drugog ciklusa i doktorske studije trećeg ciklusa, programe cjeloživotnog učenja (life-long learning) i stalnog stručnog osposobljavanja i usavršavanja. Univerzitet takođe obavlja osnovna i primijenjena istraživanja u matičnim naučnim oblastima akreditovanih studijskih programa, kao i istraživanja koja su u funkciji razvoja obrazovne djelatnosti.</p>
+        <button class="main__btn"><a href="https://apeiron-uni.eu/univerzitet/o-univerzitetu/">Saznaj više</a></button>
+      </div>
+    </div>
+
+    <!-- Univerzitet -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <img class="fakultet_img_prog" src="FAKULTET - PROGRAM.jpg" alt="Studijski program">
+        </div>
+        <div class="main__content">
+          <h1>Šta mi nudimo?</h1>
+            <ul>
+              <li>Puna podrška</li>
+              <li>Stručna praksa</li>
+              <li>Zaposlenje</li>
+              <li>Nove tehnologije</li>
+           </ul>
+          <button class="main__btn"><a href="https://apeiron-uni.eu/kontakt/">Kontakt informacije!
+          </a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fakultet -->
+    <div class="services" id="services">
+      <h1>Studijski programi</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>Osnovni</h2>
+          <p>Sistem učenja na daljinu</p>
+          <p>Saradnja sa drugim visokoškolskim ustanovama</p>
+          <p>240 ECTS</p>
+          <div class="services__btn"><a href="https://apeiron-uni.eu/upis/"><button>Upis</button></a></div>
+        </div>
+        <div class="services__card">
+          <h2>Master</h2>
+          <p>Specijalizacija</p>
+          <p>2-4 semestra</p>
+          <p>300 ECTS</p>
+          <div class="services__btn"><a href="https://apeiron-uni.eu/master-studije/fakultet-informacionih-tehnologija-master-studije/"><button>Upis</button></a></div>
+        </div>
+        <div class="services__card">
+          <h2>Doktorski</h2>
+          <p>Mentorska podrška</p>
+          <p>Zvanje doktora</p>
+          <p>Izbor naučnog polja</p>
+          <div class="services__btn"><a href="https://apeiron-uni.eu/doktorske-studije/fakultet-informacionih-tehnologija-doktorske-studije/"><button>Upis</button></a></div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sign-up  -->
+    <div class="main" id="sign-up">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Pridruži se našem timu</h1>
+          <h2>Prijavi se danas</h2>
+          <p>Uvjeri se zbog čega smo drugačiji</p>
+          <button class="main__btn"><a href="https://apeiron-uni.eu/osnovne-studije/fakultet-informacionih-tehnologija/">Prijavi se</a></button>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--card" id="card-2">
+            <i class="fas fa-users"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>O nama</h2>
+            <a href="/sign__up">Funkcionalosti</a> <a href="/">Izjave</a>
+            <a href="/">Karijere</a> <a href="/">Terms of Service</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Kontaktirajte nas</h2>
+            <a href="/">Kontakt</a> <a href="/">Podrška</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Video</h2>
+            <a href="/">Postavi Video</a> <a href="/">Ambasadori</a>
+            <a href="/">Agencije</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="/">Instagram</a> <a href="/">Facebook</a>
+            <a href="/">Youtube</a> <a href="/">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">APEIRON</a>
+          </div>
+          <p class="website__rights">© APEIRON 2021. All rights reserved</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
